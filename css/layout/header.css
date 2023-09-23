@@ -34,7 +34,6 @@
 
 	.address {
 		display: none;
-		
 	}
 	.mobil-menu-button {
 		border: none;
@@ -286,12 +285,11 @@
 	}
 }
 
-@media screen (min-width: 1158px) {
-
+@media screen and (min-width: 1158px) {
 	.nav {
-	display: flex;
-	align-items: center;
-
+		display: flex;
+		align-items: center;
+	}
 	.address {
 		font-style: normal;
 	}
@@ -316,102 +314,3 @@
 		color: var(--pressed-state-color);
 	}
 }
-
-/* .header {
-	border-bottom: 1px solid var(--cornflower);
-	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-		0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.header-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.nav {
-	display: flex;
-	align-items: center;
-}
-
-.menu {
-	display: flex;
-	gap: 40px;
-}
-
-.header-logo {
-	color: var(--primary-brand-color);
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	text-decoration: none;
-	margin-right: 76px;
-}
-
-.accent-header {
-	color: var(--dark-color);
-}
-
-.header-link {
-	color: var(--dark-color);
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	padding: 24px 0;
-	display: block;
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-link:hover,
-.header-link:active,
-.header-link:focus {
-	color: var(--pressed-state-color);
-}
-
-.active-page {
-	color: var(--pressed-state-color);
-	position: relative;
-}
-
-.active-page::after {
-	content: '';
-	display: block;
-	width: 48px;
-	height: 4px;
-	border-radius: 2px;
-	background: var(--pressed-state-color);
-	margin-top: 20px;
-	margin-bottom: 0;
-	position: absolute;
-	left: 0;
-	bottom: -1px;
-}
-
-.address {
-	font-style: normal;
-}
-
-.address-list {
-	display: flex;
-	gap: 40px;
-}
-
-.contacts-link {
-	color: var(--text-color);
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contacts-link:hover,
-.contacts-link:active,
-.contacts-link:focus {
-	color: var(--pressed-state-color);
-} */
