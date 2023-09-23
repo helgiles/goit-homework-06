@@ -2,7 +2,8 @@
 
 .team-section {
 	background-color: var(--light-background-color);
-	padding: 96px 0;
+	padding-top: 96px;
+	padding-bottom: 96px;
 }
 
 .team-title {
