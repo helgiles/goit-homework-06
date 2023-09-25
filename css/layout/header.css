@@ -156,10 +156,10 @@
 	}
 
 	.mobile-socials-container {
-		width: 280px;
+		min-width: 280px;
 		height: 40px;
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 16px;
+		margin-right: 16px;
 		margin-bottom: 40px;
 	}
 
